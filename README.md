@@ -9,8 +9,11 @@ enabling analysis and visualization of key business metrics.
 To run this project, i ensured i have the following libraries installed:
 
 requests: For connecting to the Northwind API
+
 pandas: For data transformation
+
 sqlalchemy: For communicating with PostgreSQL
+
 dbt: For data transformation and modeling
 
 1. Data Extraction from API:
@@ -33,5 +36,6 @@ Models are organized into directories within the dbt project, and dependencies b
 Once the dbt project is configured and models are defined, they can be executed using the dbt run command.
 dbt automatically generates SQL queries based on the models and executes them against the database.
 During execution, dbt handles dependencies between models and ensures that transformations are performed in the correct order.
+
 Overall, this process involves extracting data from the API, loading it into a database, transforming it using dbt, and then analyzing
- the transformed data to derive insights and make informed decisions.
+the transformed data to derive insights and make informed decisions.
