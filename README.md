@@ -1,4 +1,5 @@
 Northwind Data Extraction and Transformation
+
 Overview
 This project focuses on extracting data from the Northwind API, transforming it using dbt (Data Build Tool), and creating staging and production models for analysis.
 The Northwind API provides access to a fictional company's sales, customers, products, and orders data. The extracted data is then transformed into a structured format using dbt, 
